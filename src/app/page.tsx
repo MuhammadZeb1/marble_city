@@ -1,9 +1,5 @@
-import Image from "next/image";
+import Storefront from "./storefront";
 
 export default function Home() {
-  return (
-    <>
-    <h1>heloo</h1>
-    </>
-  );
+  return <Storefront />;
 }
